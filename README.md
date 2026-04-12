@@ -116,7 +116,7 @@ voice-ai-agent/
 ### Prerequisites
 
 - Python 3.10 or higher
-- A free Groq API key from [console.groq.com](https://console.groq.com)
+
 
 ### 1. Clone the Repository
 
@@ -145,13 +145,10 @@ pip install -r requirements.txt
 
 ### 4. Configure Environment Variables
 
-Create a `.env` file in the root of the project and add your Groq API key. You can get a free key at [console.groq.com](https://console.groq.com).
+Create a `.env` file in the root of the project and add your Groq API key.
 
-```
-GROQ_API_KEY=your_groq_api_key_here
-```
 
-> The `.env` file is listed in `.gitignore` and will never be uploaded to GitHub.
+
 
 ### 5. Run the Application
 
