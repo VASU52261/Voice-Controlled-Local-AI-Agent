@@ -1,0 +1,6 @@
+gradio
+groq
+python-dotenv
+scipy
+numpy
+sounddevice
