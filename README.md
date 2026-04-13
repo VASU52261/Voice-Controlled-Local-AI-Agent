@@ -243,5 +243,5 @@ The `.env` file containing the API key is listed in `.gitignore` and is never up
 
 ## Demo
 
-- **Video Demo:** [Watch on YouTube](#) — _update this link after recording_
+- **Video Demo:** [Watch on YouTube](https://youtu.be/x9RQotf9RjI)
 - **GitHub Repository:** [github.com/VASU52261/voice-ai-agent](https://github.com/VASU52261/voice-ai-agent)
