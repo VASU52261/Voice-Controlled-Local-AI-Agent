@@ -99,7 +99,7 @@ voice-ai-agent/
 │   └── memory.py          # Session memory and action log
 ├── output/                # All generated files are saved here
 │   └── .gitkeep           # Keeps folder tracked by Git
-├── .env                   # API key — not uploaded to GitHub
+├── .env                   # Environment Configuration
 ├── .gitignore             # Ignores .env, venv, __pycache__
 ├── app.py                 # Main Gradio UI and pipeline logic
 ├── requirements.txt       # All Python dependencies
