@@ -2,10 +2,7 @@
 
 A fully functional voice-controlled AI agent that accepts spoken input and uploaded audio file, classifies user intent using a large language model, executes local system tasks, and displays the entire pipeline in a clean web-based UI.
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![Gradio](https://img.shields.io/badge/UI-Gradio-orange)
-![Groq](https://img.shields.io/badge/LLM-Groq-green)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 
 ---
 
