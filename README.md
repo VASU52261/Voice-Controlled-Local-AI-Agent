@@ -237,7 +237,6 @@ The LLM used for intent classification and code generation is `llama-3.3-70b-ver
 
 All file creation and code writing operations are strictly restricted to the `output/` folder inside the repository. The tool execution code uses `os.path.basename()` to strip any directory traversal attempts, ensuring no files can be written outside the designated folder.
 
-The `.env` file containing the API key is listed in `.gitignore` and is never uploaded to GitHub.
 
 ---
 
