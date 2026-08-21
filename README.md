@@ -227,20 +227,8 @@ This machine does not have a dedicated GPU capable of running Whisper efficientl
 - Higher accuracy than smaller local Whisper models
 - Free tier access at no cost
 
-This is a documented and accepted workaround per the assignment brief.
 
 The LLM used for intent classification and code generation is `llama-3.3-70b-versatile`, also accessed via the Groq API. A local model via Ollama or LM Studio was considered, but Groq provides significantly faster inference with equivalent output quality.
 
 ---
 
-## Security
-
-All file creation and code writing operations are strictly restricted to the `output/` folder inside the repository. The tool execution code uses `os.path.basename()` to strip any directory traversal attempts, ensuring no files can be written outside the designated folder.
-
-
----
-
-## Demo
-
-- **Video Demo:** [Watch on YouTube](https://youtu.be/x9RQotf9RjI)
-- **GitHub Repository:** [github.com/VASU52261/voice-ai-agent](https://github.com/VASU52261/voice-ai-agent)
